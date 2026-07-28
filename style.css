@@ -1,0 +1,13 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+  body{
+    text-align: center;
+    list-style: none;
+    color: black;
+    gap: initial;
+}
