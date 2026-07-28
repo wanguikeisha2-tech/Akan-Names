@@ -1,13 +1,20 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 2px;
+    padding: 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: aliceblue;
 }
 
-  body{
-    text-align: left;
-    list-style: none;
-    color: black;
-    gap: initial;
+#Home{
+    text-align: center;
+    padding:40px 20px;
+    margin-bottom: auto;
+}
+
+#input-form{
+    max-width:420px; 
+    margin:auto;
+    padding: 24px;
+    background-color: antiquewhite;
+    border-radius: 12px;
 }
