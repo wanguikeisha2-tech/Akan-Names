@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKAN NAMES</title>
+    <title>Akan Names</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header> 
-        <section id="Home" class="Home">
-            <h1>Soul Names Of Ghana</h1>
-            <p>Every day of the week has its own name in Akan culture. <br>Enter your birthdate to find out which one is yours — and learn the story behind it</p>
-        </section>
-
-        <section id="input-form" class="form">
-            <form id="akan-names-form">
-         <p><strong>Discover the traditional Akan name assigned to you based on your day of birth.</strong></p>                         
-  Date of Birth:<input type="date" id="birthdate">    
- Gender:<input type="radio" name="gender" value="male">Male  
-  <input type="radio" name="gender" value="female">Female 
-  <button type="submit">Find My Akan Name</button>  
-</form>
-    </section>
-
-        <section id="results" class="results">
-        <p>Your Akane name is</p>
+    <header>
+        <section id="home" class="home">
+            <h1>Soul Names of Ghana</h1>
+            <p>
+                Every day of the week has its own name in Akan culture.
+                <br>
+                Enter your birth date to find out which one is yours—and learn the story behind it.
+            </p>
         </section>
     </header>
-    
+    <main>
+        <section id="input-form" class="form">
+            <div class="container">
+                <form id="akan-names-form">
+                    <p><strong>Discover the traditional Akan name assigned to you based on your day of birth.</strong></p>
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                    <br><br>
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <br><br>
+                    <button type="submit">Find My Akan Name</button>
+                </form>
+            </div>
+        </section>
+        <section id="results" class="results">
+            <h2>Your Akan Name</h2>
+            <p id="result">Your Akan name is...</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

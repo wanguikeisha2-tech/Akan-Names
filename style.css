@@ -1,20 +1,14 @@
 * {
     margin: 2px;
     padding: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: aliceblue;
 }
-
-#Home{
-    text-align: center;
-    padding:40px 20px;
-    margin-bottom: auto;
-}
-
+ 
 #input-form{
-    max-width:420px; 
-    margin:auto;
-    padding: 24px;
-    background-color: antiquewhite;
-    border-radius: 12px;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: rgb(9, 146, 144);
+    
 }
+
