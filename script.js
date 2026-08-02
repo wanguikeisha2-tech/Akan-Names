@@ -24,7 +24,6 @@ form.addEventListener("submit", function(event) {
         alert("Please select your gender.");
         return;
     }
-
     // Split the date
     let dateParts = birthdate.split("-");
 
