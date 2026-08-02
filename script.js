@@ -11,9 +11,6 @@ function getAkanName(){
 // Get the form
 let form = document.getElementById("akan-names-form");
 
-// Run this function when the form is submitted
-form.addEventListener("submit", function (event) {
-
     // Stop the page from refreshing
     event.preventDefault();
 
