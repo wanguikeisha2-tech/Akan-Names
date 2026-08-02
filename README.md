@@ -5,7 +5,7 @@
 
 **Keisha Wangui**
 
-git@github.com:wanguikeisha2-tech/Akan-Names.git
+GitHub:wanguikeisha2-tech/Akan-Names
 
 ---
 # Description
