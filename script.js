@@ -1,9 +1,9 @@
 function getAkanName(){
-    let birthdate = documnent.getElementById("birthdate").value;
+    let birthdate = document.getElementById("birthdate").value;
     let dateParts = birthdate.split("-");
-    let year = datePart[0]
-    let month = datePart[1]
-    let day = datePart[2]
+    let year = dateParts[0]
+    let month = dateParts[1]
+    let day = dateParts[2]
     console.log(year)
     console.log(month)
     console.log(day)
@@ -67,7 +67,6 @@ form.addEventListener("submit", function (event) {
         day) % 7
     );
 
-    
     if (d < 0) {
         d += 7;
     }
