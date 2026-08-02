@@ -6,7 +6,6 @@
 **Keisha Wangui**
 
 GitHub: https://github.com/wanguikeisha2-tech/Akan-Names.git
-:wanguikeisha2-tech/Akan-Names.git
 
 ---
 # Description
