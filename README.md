@@ -14,4 +14,4 @@ My project collects the user's birthdate and gender, checks if the input is vali
 # Live Site
 https://wanguikeisha2-tech.github.io/akan-name-generator/
  
- live website : git@github.com:wanguikeisha2-tech/Akan-Names.git
+ 
