@@ -3,11 +3,7 @@ let form = document.getElementById("akan-names-form");
 
 form.addEventListener("submit", function(event) {
 
-<<<<<<< HEAD
     event.preventDefault();
-=======
-    event.preventDefault(); 
->>>>>>> e9c6cd3d96c44c4b405e56c654f7d6b153ad980c
 
     let birthdate = document.getElementById("birthdate").value;
 
@@ -21,10 +17,7 @@ form.addEventListener("submit", function(event) {
     if (gender === null) {
         alert("Please select your gender.");
         return;
-<<<<<<< HEAD
     }
-=======
->>>>>>> e9c6cd3d96c44c4b405e56c654f7d6b153ad980c
 
     let dateParts = birthdate.split("-");
 
@@ -56,11 +49,7 @@ form.addEventListener("submit", function(event) {
     if (d < 0) {
         d += 7;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> e9c6cd3d96c44c4b405e56c654f7d6b153ad980c
     let maleNames = [
         "Kwasi",
         "Kwadwo",
